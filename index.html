@@ -3,73 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Project</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet"   href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet"     href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <title>Document</title>
 </head>
 <body>
-<header>
-<nav class="navbar navbar-expand-lg navigation-wrap">
-    <div class="container">
-        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-stream navbar-toggler-icon"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About Us</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link"  href="#explore-food">Explore Foods</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="#testimonial">Reviews</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="#faq">FAQ</a>
-                </li>
-                <li><button class="main-btn">1200 345 123</button></li>
-            </ul>
-        </div>
+   <div>
+    <label for="num1">Value 1</label>
+    <input type="number" id="num1">
+    <label for="num2">Value 2</label>
+    <input type="number" id="num2">
+    <label for="num3">Value 3</label>
+    <input type="number" id="num3">
+   </div> 
+   <div><br><br>
+   <label for="num4">Value 4</label>
+    <input type="number" id="num4">
+    <label for="num5">Value 5</label>
+    <input type="number" id="num5">
+    <label for="num6">Value 6</label>
+    <input type="number" id="num6">
     </div>
-</nav>
-</header>
+<div><br>
+ <button value="add" onclick="myfunction()">Add</button>
+ <button value="substraction" onclick="myfunction()">substraction</button>
+ <button value="multiplication" onclick="myfunction()">multiplication</button>
+ <button value="division" onclick="myfunction()">division</button>
+</div>
 
-<section id="home">
-    <div class="container-fluid px-0 top-banner">
-     <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-md-6">
-                <h1>Good food choices  are good investment.</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Etiam et purus a odio finibus bibendum amet leo.  
-                </p>
-                <div class="mt-4">
-                    <button class="main-btn">Order Now <i class="fas fa-shopping-basket ps-3"></i></button>
-                    <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Order Now <i class="fas fa-angle-right ps-3"></i></button>
-                </div>
-            </div>
-        </div>
-     </div>
+
+
+    <div><br>
+    <label for="result">Answer</label>
+    <input type="number" id="result">
     </div>
-</section>
-<section id="counter">
-<section class="counter-section">
-    
-</section>
-</section>
+    <script>
+   function myfunction(){
+    var num1= document.getElementById("num1").value;
+    var num2= document.getElementById("num2").value;
+    var num3= document.getElementById("num3").value;
+    var num4= document.getElementById("num4").value;
+    var num5= document.getElementById("num5").value;
+    var num6= document.getElementById("num6").value;
 
-    
+   }
+if(answer==='add'){
+    var num1= parseInt(document.getElementById("num1").value);
+    var num2= parseInt (document.getElementById("num2").value);
+    var num3= parseInt(document.getElementById("num3").value);
+    var num4= parseInt(document.getElementById("num4").value);
+    var num5= parseInt(document.getElementById("num5").value);
+    var num6= parseInt(document.getElementById("num6").value);
+     document.getElementById("result").value=num1addnum2addnum3addnum4addnum5addnum6;
+}
+if(answer==='add'){
+    var num1= parseInt(document.getElementById("num1").value);
+    var num2= parseInt(document.getElementById("num2").value);
+    var num3= parseInt(document.getElementById("num3").value);
+    var num4= parseInt(document.getElementById("num4").value);
+    var num5= parseInt(document.getElementById("num5").value);
+    var num6= parseInt(document.getElementById("num6").value);
+     document.getElementById("result").value=num1substractionnum2substractionnum3substractionnum4substractionnum5substractionnum6;
+}
+if(answer==='add'){
+    var num1= document.getElementById("num1").value;
+    var num2= document.getElementById("num2").value;
+    var num3= document.getElementById("num3").value;
+    var num4= document.getElementById("num4").value;
+    var num5= document.getElementById("num5").value;
+    var num6= document.getElementById("num6").value;
+     document.getElementById("result").value=num1+num2+num3+num4+num5+num6;
+}
+if(answer==='substraction'){
+    var num1= document.getElementById("num1").value;
+    var num2= document.getElementById("num2").value;
+    var num3= document.getElementById("num3").value;
+    var num4= document.getElementById("num4").value;
+    var num5= document.getElementById("num5").value;
+    var num6= document.getElementById("num6").value;
+     document.getElementById("result").value=num1-num2-num3-num4-num5-num6;
+}
+if(answer==='add'){
+    var num1= document.getElementById("num1").value;
+    var num2= document.getElementById("num2").value;
+    var num3= document.getElementById("num3").value;
+    var num4= document.getElementById("num4").value;
+    var num5= document.getElementById("num5").value;
+    var num6= document.getElementById("num6").value;
+     document.getElementById("result").value=num1+num2+num3+num4+num5+num6;
+}
+    </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
