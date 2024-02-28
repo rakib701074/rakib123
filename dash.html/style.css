@@ -41,4 +41,7 @@ button {
         top: var(--TopNavbarHeight);
         
     }
+    .wrapper{
+        text-align: center;
+    }
 }
